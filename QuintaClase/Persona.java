@@ -63,20 +63,20 @@ class ProfesorMaestria extends Profesor {
     }
 }
 
-// class Main{
-//     public static void main(String[] args) {
-//         ProfesorMaestria pm1 = new ProfesorMaestria("Carlos", "Vintimilla", 30, "Soltero", "Ecuador", false, "Ciberseguridad");
-//         pm1.presentarse();
-//         pm1.crearCuenta();
-//         pm1.darClase("Tratamiento de Datos");
+class Main{
+    public static void main(String[] args) {
+        ProfesorMaestria pm1 = new ProfesorMaestria("Carlos", "Vintimilla", 30, "Soltero", "Ecuador", false, "Ciberseguridad");
+        pm1.presentarse();
+        pm1.crearCuenta();
+        pm1.darClase("Tratamiento de Datos");
 
-//         System.out.println("Es tiempo completo: " + pm1.tiempoCompleto);
-//         System.out.println("Profesion: " + pm1.profesion);
+        System.out.println("Es tiempo completo: " + pm1.tiempoCompleto);
+        System.out.println("Profesion: " + pm1.profesion);
 
-//         ProfesorMaestria pm2 = new ProfesorMaestria("Carlos", "Vintimilla", 30, "Soltero", "Ecuador", false, "Ciberseguridad");
+        ProfesorMaestria pm2 = new ProfesorMaestria("Carlos", "Vintimilla", 30, "Soltero", "Ecuador", false, "Ciberseguridad");
 
-//         System.out.println("Resultado equals: " + pm1.equals(pm1));
-//         System.out.println("Resultado Class: " + pm2.getClass());
+        System.out.println("Resultado equals: " + pm1.equals(pm1));
+        System.out.println("Resultado Class: " + pm2.getClass());
 
-//     }
-// }
+    }
+}
